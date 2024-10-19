@@ -34,7 +34,7 @@ import './footer.css'
       <li className="menu__item"><a className="menu__link" href="/ContactUs">Contact</a></li>
 
     </ul>
-    <p>&copy;BHAVATU  | All Rights Reserved</p>
+    <p>© 2023 Bhavatu, Inc. All Rights Reserved</p>
   </footer>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script noModule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>

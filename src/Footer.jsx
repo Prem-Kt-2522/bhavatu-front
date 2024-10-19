@@ -31,7 +31,7 @@ import { Link } from 'react-router-dom';
     </ul>
     <ul className="menu">
   <li className="menu__item"><Link className="menu__link" to="/">Home</Link></li>
-  <li className="menu__item"><Link className="menu__link" to="/readmore">Read More</Link></li>
+  <li className="menu__item"><Link className="menu__link" to="/readmore">About Us</Link></li>
   <li className="menu__item"><Link className="menu__link" to="/contactus">Contact</Link></li>
 </ul>
     <p>© 2023 Bhavatu, Inc. All Rights Reserved</p>

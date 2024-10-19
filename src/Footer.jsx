@@ -1,5 +1,7 @@
 import React from 'react'
 import './footer.css'
+import { Link } from 'react-router-dom';
+
 
  function Footer() {
   return (
@@ -28,12 +30,10 @@ import './footer.css'
         </a></li>
     </ul>
     <ul className="menu">
-      <li className="menu__item"><Link className="menu__link" href="/">Home</Link></li>
-      <li className="menu__item"><Link to="/readmore" className='menu_link'>Read More</Link></li>
-     
-      <li className="menu__item"><Link className="menu__link" to="/ContactUs">Contact</Link></li>
-
-    </ul>
+  <li className="menu__item"><Link className="menu__link" to="/">Home</Link></li>
+  <li className="menu__item"><Link className="menu__link" to="/readmore">Read More</Link></li>
+  <li className="menu__item"><Link className="menu__link" to="/contactus">Contact</Link></li>
+</ul>
     <p>© 2023 Bhavatu, Inc. All Rights Reserved</p>
   </footer>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>

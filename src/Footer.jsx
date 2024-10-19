@@ -28,10 +28,10 @@ import './footer.css'
         </a></li>
     </ul>
     <ul className="menu">
-      <li className="menu__item"><a className="menu__link" href="/">Home</a></li>
-      <li className="menu__item"><a className="menu__link" href="/readmore">About</a></li>
+      <li className="menu__item"><Link className="menu__link" href="/">Home</Link></li>
+      <li className="menu__item"><Link to="/readmore" className='menu_link'>Read More</Link></li>
      
-      <li className="menu__item"><a className="menu__link" href="/ContactUs">Contact</a></li>
+      <li className="menu__item"><Link className="menu__link" to="/ContactUs">Contact</Link></li>
 
     </ul>
     <p>© 2023 Bhavatu, Inc. All Rights Reserved</p>
